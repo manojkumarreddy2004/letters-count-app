@@ -22,7 +22,7 @@ class LettersCalculator extends Component {
               <input
                 id="inputBox"
                 className="input-box"
-                type="text
+                type="text"
                 placeholder="Enter the phrase"
                 onChange={this.onChangeInputText}
               />
