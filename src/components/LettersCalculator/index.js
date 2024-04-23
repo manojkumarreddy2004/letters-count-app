@@ -13,6 +13,11 @@ class LettersCalculator extends Component {
     return (
       <div className="bg-cont">
         <div className="card-cont">
+          <img
+            className="calci-img"
+            src="https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png"
+            alt="letters calculator"
+          />
           <div>
             <h1 className="main-heading">Calculate the Letters you enter</h1>
             <div className="input-cont">
@@ -27,13 +32,8 @@ class LettersCalculator extends Component {
                 onChange={this.onChangeInputText}
               />
             </div>
-            <p className="count-box">No.of letters: {count}</p>
+            <p className="count-box"> No.of letters: {count}</p>
           </div>
-          <img
-            className="calci-img"
-            src="https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png"
-            alt="letters calculator"
-          />
         </div>
       </div>
     )
